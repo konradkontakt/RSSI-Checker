@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:orientation="vertical"
+    app:layout_height="match_parent"
+    app:layout_width="match_parent">
+
+    <Button
+        app:id="@+id/button"
+        app:text="START SCANNING"
+        app:visibility="visible"
+        app:layout_height="wrap_content"
+        app:layout_width="395dp" />
+
+    <Button
+        app:id="@+id/button2"
+        app:text="STOP SCANNING"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="285dp"
+        app:layout_height="wrap_content"
+        app:layout_width="395dp" />
+
+</LinearLayout>
